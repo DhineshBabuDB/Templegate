@@ -7,12 +7,14 @@ import RFx from './Components/NavComponents/RFx/RFx';
 import RFxManagement from './Components/NavComponents/RFxManagement/RFxManagement';
 import Response from './Components/NavComponents/Responses/Response';
 import Overview from './Components/OverviewPage/Overview';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
     
     <div className="App">
       <BrowserRouter>
+      <NavBar/>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path='/home' element={<Homepage />} />
