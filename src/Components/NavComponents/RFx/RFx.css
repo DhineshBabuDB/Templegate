@@ -1,0 +1,4 @@
+.bodyblock{
+    display: flex;
+    flex-direction: row;
+}

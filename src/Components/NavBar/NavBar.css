@@ -1,0 +1,38 @@
+.Navbar{
+    width: 100vw;
+    background-color: rgb(89, 93, 106);
+    z-index: 1000;
+}
+
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5rem;
+    padding: 0 8px;
+}
+
+.Navbar ul li{
+    list-style-type: none;
+    padding: 4px 1rem;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.homeIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linktexts{
+    color: white;
+    text-decoration: none;
+}
+
+.linktextsActive{
+    color:black !important;
+    background-color: white !important;
+}

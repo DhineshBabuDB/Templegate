@@ -1,0 +1,138 @@
+.SupplierDatabase{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SupplierTitle{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.STitle{
+    background-color: rgb(15, 9, 92);
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border-radius: 7px;
+    color: white;
+    margin-left: 8px;
+    
+}
+
+.STitle span{
+    font-weight: 600;
+}
+
+.menubtns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    height: 2.7rem;
+    background-color: rgb(132, 124, 124);
+}
+
+.menubtns div{
+    min-width: 12rem;
+    margin-left: 2px;
+    background-color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: rgb(121, 111, 111);
+}
+
+.tableDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableDiv table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 3px -3px #7b7b7b,
+              0px -4px 3px -3px #7b7b7b;
+    font-size: 0.9rem;
+}
+
+thead{
+    background-color: rgb(235, 235, 235);
+}
+
+thead tr{
+    height: 2rem;
+    font-weight: 600;
+    
+}
+
+thead tr th{
+    font-weight: 800;
+}
+
+tbody tr{
+    height: 4rem;
+    text-align: center;
+}
+
+.secondtr {
+    background-color: rgb(235, 235, 235);
+}
+
+.search{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 2rem;
+}
+
+.searchbutton{
+    position: relative;
+}
+
+.searchbutton input{
+    border-radius: 5px;
+    height: 1.7rem;
+    cursor: pointer;
+    padding: 0 0 0 2rem;
+    width: 8rem;
+}
+
+.searchbutton button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 6.7rem;
+    top: 0.48rem;
+}
+
+.supplyDetails{
+    width: 100%;
+    height: 4rem;
+    box-shadow:  0px -4px 3px -3px #7b7b7b;
+}
+
+.tableTitle{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 1.7rem;
+}
+
+.tableTitle h3{
+    font-weight: 800;
+    font-size: 1rem;
+}

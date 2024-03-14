@@ -1,0 +1,207 @@
+.OverviewBody{
+    width: 100%;
+}
+
+.secondBar{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+.secondBar button{
+    background-color: transparent;
+    border: none;
+    min-width: 12rem;
+    padding: 0.3rem 0;
+    border-radius: 5px;
+    font-weight: 800;
+    height: 2rem;
+    font-size: 1rem;
+}
+.supplyColor{
+    background-color: rgb(20, 34, 156) !important;
+    color: white;
+}
+
+.mainContainer{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.containerLeft{
+    width: 70%;
+}
+
+.containerLeft h3{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    font-weight: 800;
+}
+
+#spLink{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.details{
+    display: flex;
+    padding: 1rem 0;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.detailsList{
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.dataTitle{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.risk{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.revenue{
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15rem;
+}
+
+.money{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.moneyTitle{
+    color: rgb(27, 182, 216);
+}
+
+.riskLevel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.riskLevel h4{
+    color: rgb(27, 182, 216);
+}
+
+.riskLevel span{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.riskLevel p{
+    color: rgb(7, 222, 43);
+}
+
+.graphs{
+    width: 100%;
+    display: flex;
+}
+
+.graphleft{
+    width: 50%;
+}
+
+.graphleft h6{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.circles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.circleChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+}
+.circleChild span{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.numbers{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.8px solid gray;
+    box-shadow: 0px 0px 5px 5px rgb(101, 191, 226);
+    font-weight: 800;
+}
+
+.linegraph{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linegraph h4{
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.LineGraph{
+    width: 50%;
+    height: 50%;
+}
+
+.containerRight{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.commodity{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commodity h4{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}

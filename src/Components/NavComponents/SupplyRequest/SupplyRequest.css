@@ -1,0 +1,85 @@
+.SupplierDatabase{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SupplierTitle{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.STitle{
+    background-color: rgb(15, 9, 92);
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border-radius: 7px;
+    color: white;
+    margin-left: 8px;
+    
+}
+
+.STitle span{
+    font-weight: 600;
+}
+
+.contentAdd{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgb(129, 125, 125);
+    box-shadow: 0px 4px 3px -3px #7d7878, 
+              0px -4px 3px -3px #7d7878, 
+              4px 0px 3px -3px #7d7878, 
+              -4px 0px 3px -3px #7d7878;
+}
+
+.contentAdd .contents{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(129, 125, 125);
+    padding: 1rem;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 3px -3px #7d7878, 
+              0px -4px 3px -3px #7d7878, 
+              4px 0px 3px -3px #7d7878, 
+              -4px 0px 3px -3px #7d7878;
+}
+
+.RFicons{
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+.procurement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.requests{
+    padding: 0.5rem 1rem;
+    margin-left:1rem ;
+    font-weight: 600;
+}
+
+.requests{
+    cursor: pointer;
+}

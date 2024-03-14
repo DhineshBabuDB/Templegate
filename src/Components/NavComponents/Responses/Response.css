@@ -1,0 +1,203 @@
+.responseBody{
+    display: flex;
+}
+
+.respo{
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.resTitle{
+    width: 100%;
+    padding: 0.5rem 2rem;
+    background-color: rgb(11, 11, 129);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.acknowledgement{
+    width: 85vw;
+    border-radius: 8px;
+    padding: 12px;
+    border: 1.5px solid black;
+    
+}
+
+.acknowledgement h3{
+    font-size: 1rem;
+}
+
+.Disclosure{
+    width: 60vw;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding: 12px;
+    margin-top: 1.5rem;
+}
+
+.disclosureTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.disclosureTitle h3{
+    font-size: 1.2rem;
+    font-weight: 600 ;
+}
+
+.versionHistory{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+}
+
+#fbtn{
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    margin-right: 4px;
+}
+
+#sbtn{
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(23, 188, 47);
+    border: none;
+    color: white;
+    margin-right: 4px;
+}
+
+
+.Version{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.Version span{
+    font-size: 0.8rem;
+    padding-right: 2rem;
+}
+
+.secondBoxdata{
+    width: 50%;
+}
+
+.secondBoxdata span{
+    font-size: 0.7rem;
+}
+
+.Generic{
+    padding: 0.5rem 0;
+}
+
+.Generic label{
+    font-size: 0.8rem;
+    margin-right: 2rem;
+}
+
+.Generic input{
+    padding: 0.2rem 1rem;
+    width: 12rem;
+}
+
+.Generic input::placeholder{
+    font-size: 0.8rem;
+}
+
+.aknowbtn{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.aknowbtn button{
+    font-size: 0.7rem;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    padding: 0.3rem 3rem 0.3rem 1rem;
+}
+
+.downbtn{
+    position: absolute;
+    left: 8rem;
+    color: white;
+}
+
+.expectedh3{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.Pricing{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(155, 136, 136);
+    margin-bottom: 0.2rem;
+}
+
+.upload{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.upload h3{
+    font-weight: 600;
+}
+
+.upload button{
+    padding: 0.2rem 1rem;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.detailNotes{
+    padding: 0 1rem;
+}
+
+.filesTemplates{
+    width: 40%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 0.3rem;
+}
+
+.filesTemplates button{
+    color: rgb(0, 132, 255);
+    background-color: transparent;
+    border: 1px solid rgb(155, 136, 136);
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnicons{
+    margin: 0 1rem 0 0;
+}
+
+.btnicons2{
+    margin: 0 0 0 1rem;
+}
