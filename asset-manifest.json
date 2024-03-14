@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Templegate/static/css/main.6dfb8f35.css",
+    "main.js": "/Templegate/static/js/main.43bf4063.js",
+    "static/js/453.7bbbc59f.chunk.js": "/Templegate/static/js/453.7bbbc59f.chunk.js",
+    "static/media/Biocon.jpg": "/Templegate/static/media/Biocon.bfc4e60764ec9e02f0cf.jpg",
+    "index.html": "/Templegate/index.html",
+    "main.6dfb8f35.css.map": "/Templegate/static/css/main.6dfb8f35.css.map",
+    "main.43bf4063.js.map": "/Templegate/static/js/main.43bf4063.js.map",
+    "453.7bbbc59f.chunk.js.map": "/Templegate/static/js/453.7bbbc59f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dfb8f35.css",
+    "static/js/main.43bf4063.js"
+  ]
+}
